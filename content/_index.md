@@ -4,6 +4,8 @@ Poniżej znajdziesz wszytko, co jest Ci potrzebne do rozpoczęcia przygody z ser
 
 > 💡 Szukasz informacji specyficznych dla serwera [frog?](frog) 🐸 
 
+## To see the English version [click here](en)
+
 ### Podstawy
 - [Logowanie na serwery](logowanie_na_serwery)
 - [Udostępnione porty](udostepnione_porty)
