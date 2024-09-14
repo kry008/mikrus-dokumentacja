@@ -1,30 +1,31 @@
 # Apache + PHP + MySQL
 
-Postawienie tzw. LAMP (Linux + Apache + PHP + MySQL) jest skrajnie proste i ogranicza się do wydania dosłownie kilku poleceń.
+To set up LAMP (Linux + Apache + PHP + MySQL) is really easy, and you only need to run a few commands.
 
-Po pierwsze, zaktualizuj repozytorium pakietów
+You need to run all commands below as `root` or at start of every line put `sudo`
+
+First you need to update repositories
 
 ```bash
 apt update
 ```
-
-Następnie zainstaluj niezbędne pakiety
+Next you need to install required packages
 
 ```bash
-apt install apache2 mariadb-server mariadb-client php libapache2-mod-php
+apt install apache2 mariadb-server mariadb-client php libapache2-mod-php -y
 ```
 
-Pliki swojej strony wrzuć do katalogu **/var/www/html**
+Page files put in **/var/www/html** catalog
 
-Aby przetestować działanie PHP, wpisz poniższe polecenie, a następnie odwołaj się do pliku test.php przez przeglądarkę.
+To test PHP working, write below command and next run via web browser file `test.php`
 
 ```bash
 echo "<?php phpinfo(); " >**/var/www/html/**test.php
 ```
 
-To w zasadzie wszystko - teraz wypadałoby tylko [podpiąć własną domenę przez Cloudflare](../podpiecie_domeny_przez_cloudflare), [wyklikać sobie darmową w panelu](https://mikr.us/panel/?a=domain) lub [szybko uzyskać ją z VPS-a](../szybka_subdomena).
+That is all, now is time to [set up own domain via Cloudflare](../podpiecie_domeny_przez_cloudflare), [get free subdomain from panel](https://mikr.us/panel/?a=domain) or [to set up quick subdomain from VPS](../szybka_subdomena).
 
-- Do postawienia bazy danych użyj [oddzielnego poradnika](../konfiguracja_mysql_mariadb)
- - Przeczytaj także o tym [jak wysyłać pliki na Mikrusa](../jak_wysylac_pliki_na_mikrusa) 
+- To set up database [read this tutorial](../konfiguracja_mysql_mariadb)
+- Read also [how to send files to Mikrus VPS](../jak_wysylac_pliki_na_mikrusa) 
 
-[Powrót do strony głównej](/)
+[Return to main page](/)
