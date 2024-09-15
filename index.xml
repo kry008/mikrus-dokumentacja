@@ -187,17 +187,15 @@
 &lt;/ul></description></item><item><title/><link>https://wiki.mikr.us/en/blad_ssh_remote_host_identification_has_changed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/blad_ssh_remote_host_identification_has_changed/</guid><description>&lt;h1 id="błąd-ssh-remote-host-identification-has-changed">Błąd SSH (Remote Host Identification has changed!)&lt;/h1>
 &lt;p>Klient SSH chce obronić Cię przed atakami man-in-the-middle (MITM). Realizuje to w ten sposób, że przy każdym połączeniu z wybranym przez Ciebie serwerem, sprawdzany jest &amp;ldquo;odcisk palca&amp;rdquo; (fingerprint) serwera. Jeśli ulegnie on zmianie, to oznacza, że ktoś majstrował przy Twoim serwerze lub nie jest to ten serwer, którego się spodziewasz.&lt;/p>
 &lt;p>Jest jednak zupełnie naturalna sytuacja, w której odcisk palca serwera się zmienia i nie jest to niebezpieczne. Dzieje się tak przy każdej reinstalacji systemu.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus/</guid><description>&lt;h1 id="cytrus">Cytrus&lt;/h1>
-&lt;p>Cytrus jest usługą współdzielonego serwera WWW (jest to Nginx), dzięki któremu bez konieczności instalacji serwera WWW jesteś w stanie hostować strony internetowe.&lt;/p>
-&lt;p>Usługa ta natywnie wspiera strony statyczne oraz te tworzone w języku PHP (np. Wordpress).&lt;/p>
+&lt;p>Cytrus is a shared web server service (this is Nginx) that allows you to host websites without having to install a web server.&lt;/p>
+&lt;p>This service natively supports static pages and those created in PHP (e.g. Wordpress).&lt;/p>
 &lt;blockquote>
-&lt;p>💡 Jeśli chcesz dodać własną DOMENĘ do Cytrusa, musisz wycelować jej wpis “A” w IP:
+&lt;p>💡 If you want to add your own DOMAIN to Cytrus, you need to point its “A” entry to IP:
 &lt;strong>135.181.95.85&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>💡 Jeśli chcesz dodać własną SUBDOMENĘ do Cytrusa, musisz wycelować jej wpis “CNAME” w:
-&lt;strong>backend.strony.me&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;strong>Dodatkowe zalety Cytrusa, to:&lt;/strong>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus_dont_provides_webpage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus_dont_provides_webpage/</guid><description>&lt;h1 id="cytrus-dont-provides-webpage">Cytrus don&amp;rsquo;t provides webpage&lt;/h1>
+&lt;p>💡 If you want to add your own SUB-DOMAIN to Cytrus, you need to point its “CNAME” entry to:
+&lt;strong>backend.strony.me&lt;/strong>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus_dont_provides_webpage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus_dont_provides_webpage/</guid><description>&lt;h1 id="cytrus-dont-provides-webpage">Cytrus don&amp;rsquo;t provides webpage&lt;/h1>
 &lt;p>There can be several causes of these problems&lt;/p>
 &lt;ul>
 &lt;li>did you reinstall your server? If yes, enable (in meny &lt;code>help&lt;/code>) Cytrus again&lt;/li>
