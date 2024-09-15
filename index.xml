@@ -197,15 +197,14 @@
 &lt;p>💡 Jeśli chcesz dodać własną SUBDOMENĘ do Cytrusa, musisz wycelować jej wpis “CNAME” w:
 &lt;strong>backend.strony.me&lt;/strong>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;strong>Dodatkowe zalety Cytrusa, to:&lt;/strong>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus_nie_podaje_stron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus_nie_podaje_stron/</guid><description>&lt;h1 id="cytrus-nie-podaje-stron">Cytrus nie podaje stron&lt;/h1>
-&lt;p>Istnieje kilka przyczyn tego problemu&lt;/p>
+&lt;p>&lt;strong>Dodatkowe zalety Cytrusa, to:&lt;/strong>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus_dont_provides_webpage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus_dont_provides_webpage/</guid><description>&lt;h1 id="cytrus-dont-provides-webpage">Cytrus don&amp;rsquo;t provides webpage&lt;/h1>
+&lt;p>There can be several causes of these problems&lt;/p>
 &lt;ul>
-&lt;li>czy reinstalowałeś swój serwer? Jeśli tak było, aktywuj (w menu &amp;ldquo;pomoc&amp;rdquo;) Cytrusa ponownie&lt;/li>
-&lt;li>czy wszystkie pliki i katalogi w /cytrus/ posiadają ownera i grupę ustawionego na &amp;ldquo;cytrus&amp;rdquo;?&lt;/li>
-&lt;li>sprawdź chmody na katalogi w /cytrus/ - czy mają ustawiony bit wykonywalności (x)?&lt;/li>
+&lt;li>did you reinstall your server? If yes, enable (in meny &lt;code>help&lt;/code>) Cytrus again&lt;/li>
+&lt;li>do all files and directories in &lt;code>/cytrus/&lt;/code> have owner and group set to &amp;ldquo;cytrus&amp;rdquo;?&lt;/li>
+&lt;li>check chmod in catalog &lt;code>/cytrus/&lt;/code> - whether they have the execute bit set (x)?&lt;/li>
 &lt;/ul>
-&lt;p>Jeśli problem nie został rozwiązany, skontaktuj się z kimś z adminów.&lt;/p>
-&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/darmowa_subdomena_dla_vps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/darmowa_subdomena_dla_vps/</guid><description>&lt;h1 id="darmowa-subdomena-dla-vps">Darmowa subdomena dla VPS&lt;/h1>
+&lt;p>If the problem is not resolved, please contact one of the admins via ticket, discord group or facebook group.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/darmowa_subdomena_dla_vps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/darmowa_subdomena_dla_vps/</guid><description>&lt;h1 id="darmowa-subdomena-dla-vps">Darmowa subdomena dla VPS&lt;/h1>
 &lt;p>Serwery VPS na Mikrusie nie posiadają własnych adresów IPv4, a jedynie udostępnione porty TCP. Nie za fajnie byłoby jednak mieć adres strony w stylu mojastrona:12345 ☹️&lt;/p>
 &lt;p>Masz do dyspozycji jednak adres IPv6, dzięki czemu podpinając swoją domenę w usłudze CloudFlare, możesz przetunelować ruch IPv4 na IPv6 i bez najmniejszych problemów pokazać swoją stronę czytelnikom. Tylko&amp;hellip; na początek musisz mieć/kupić domenę.&lt;/p>
 &lt;p>Tak się składa, że w panelu Mikrusa możesz wyklikać sobie darmową subdomenę w naszej domenie i podpiąć ją do swojego serwera.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/dashboard/</guid><description>&lt;h1 id="dashboard">Dashboard&lt;/h1>
