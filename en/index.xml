@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mikrus - Don't Panic!</title><link>https://wiki.mikr.us/en/</link><description>Recent content on Mikrus - Don't Panic!</description><generator>Hugo</generator><language>pl</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://wiki.mikr.us/en/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://wiki.mikr.us/en/amphetamine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/amphetamine/</guid><description>&lt;h1 id="amphetamine">Amphetamine&lt;/h1>
+&lt;p>If your Mikrus&amp;rsquo; resources are not enough for you (e.g. you have a first generation machine and 384MB of memory), and you absolutely want to run a software compilation or software installation, then &amp;lsquo;Amphetamine&amp;rsquo; (that&amp;rsquo;s what we call this function in the panel) will make your server gain a little more energy for a moment (30 minutes).&lt;/p>
+&lt;h2 id="does-not-work-on-frog-servers">DOES NOT WORK ON FROG SERVERS&lt;/h2>
+&lt;p>In practice, you will receive additional RAM and the disk write speed limit will be lifted. After 30 minutes from activating this option, everything will return to normal.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/apache_php_mysql/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/apache_php_mysql/</guid><description>&lt;h1 id="apache--php--mysql">Apache + PHP + MySQL&lt;/h1>
+&lt;p>To set up LAMP (Linux + Apache + PHP + MySQL) is really easy, and you only need to run a few commands.&lt;/p>
+&lt;p>You need to run all commands below as &lt;code>root&lt;/code> or at start of every line put &lt;code>sudo&lt;/code>&lt;/p>
+&lt;p>First you need to update repositories&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Next you need to install required packages&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt install apache2 mariadb-server mariadb-client php libapache2-mod-php -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Page files put in &lt;strong>/var/www/html&lt;/strong> catalog&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/biblioteka_mikrusa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/biblioteka_mikrusa/</guid><description>&lt;p>Baza, którą właśnie czytasz, przeznaczona jest dla użytkowników serwerów &lt;a href="http://mikr.US">MIKR.US&lt;/a> i ma za zadanie dostarczyć im niezbędnej wiedzy potrzebnej do wzrastania w roli admina, DevOpsa, czy świadomego programisty.&lt;/p>
+&lt;p>Baza wiedzy jest systematycznie uzupełniana o nowe znaleziska. Chcesz coś do niej dodać? Wyślij linka na &lt;a href="mailto:kontakt@mikr.us">kontakt@mikr.us&lt;/a> lub dodaj ją na &lt;a href="https://github.com/unkn0w/mikrus-dokumentacja/">GitHub-ie&lt;/a>!&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-pl.md">Podstawy pracy w terminalu linuksowym - poradnik&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=hTNEVYcG1kc">Praca w terminalu (film) - absolutne podstawy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://catonmat.net/set-operations-in-unix-shell">Praca na zbiorach danych z użyciem grep, cut, awk, sort itp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://javascript.plainenglish.io/how-i-reduced-docker-image-size-from-1-43-gb-to-22-4-mb-84058d70574b">Optymalizacja rozmiaru obrazu dockerowego (z 1,4GB do 22MB)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose">Dobre praktyki przy pisaniu docker-compose&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://linuxhandbook.com/curl-command-examples/">Jak używać cURLa?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://geshan.com.np/blog/2019/11/how-to-use-docker-multi-stage-build/">Jak zrobić multi-stage build na dockerze?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/aemiej/nginx-concepts-i-wish-i-knew-years-ago-23o0">Koncepcje używane w Nginx - wprowadzenie do tematu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/trimstray/nginx-admins-handbook">Podręcznik administratora nginx - wszystko, co musisz wiedzieć&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.detectify.com/2020/11/10/common-nginx-misconfigurations/">Częste błędy przy konfiguracji nginx, stwarzające zagrożenia dla security&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nginx.com/blog/thread-pools-boost-performance-9x/">Przyspieszanie Nginx (9x!) z użyciem thread-pools&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/">Jak działa rozwiązywanie DNSa w systemie Linux?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://explainshell.com/">Narzędzie wyjaśniające polecenia shellowe&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://devconnected.com/syslog-the-complete-system-administrator-guide/">Wszystko, co musisz wiedzieć o Syslogu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cmdchallenge.com/">Sprawdź jak sprawnie posługujesz się terminalem (gra)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/">Sztuczki ułatwiające prace z Bashem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ma.ttias.be/prevent-cronjobs-from-overlapping-in-linux/">Jak sprawić, aby zadania z crona nie nakładały się na siebie?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dougvitale.wordpress.com/2011/12/21/deprecated-linux-networking-commands-and-their-replacements/">Polecenia do konfiguracji sieci na Linuksie (przestarzałe i ich nowoczesne odpowiedniki)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ma.ttias.be/varnish-explained/">Podstawy Varnisha (reverse proxy z cache)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jorge.fbarr.net/2014/01/19/introduction-to-strace/">Podstawy obsługi aplikacji strace&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://makefiletutorial.com/?utm_content=buffer8ae77&amp;amp;utm_medium=social&amp;amp;utm_source=facebook.com&amp;amp;utm_campaign=buffer">Jak tworzyć własne pliki Makefile?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=u0wSncMHAyM">Podstawy obsługi AWK (przetwarzanie tekstu)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=9OmFb8-KFQA">Jak pisać jednolinijkowce w PERLu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.netmeister.org/blog/mktemp.html">Jak bezpiecznie obsługiwać pliki/katalogi tymczasowe w swoich skryptach?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jarv.is/notes/how-to-backup-linux-server/">Backup serwera do AWS S3 (z użyciem restic)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.gentlydownthe.stream/">Jak działa Apache Kafka (wyjaśnienie na poziomie 5-letniego dziecka)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/phanan/htaccess">Podstawy konfiguracji .htaccess dla Apache&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction">Wyjaśnienie terminologii związanej z kontenerami i konteneryzacją&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://opensource.com/article/20/10/rdiffweb">Zarządzanie backupami przez przeglądarkę (rdiffweb)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://opensource.com/article/20/4/proc-filesystem">Podstawy obsługi filesystemu /proc/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bulldogjob.pl/news/989-usluga-linuxa-z-systemd">Jak uruchomić swój program/skrypt jako usługę systemd?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.ikuamike.io/posts/2021/netcat/">Podstawy obsługi NetCata (szwajcarski scyzoryk do obsługi sieci)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://robotmoon.com/ssh-tunnels/">Tunele SSH - jak je tworzyć?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs/">Jak działają kontenery i czym jest OverlayFS?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jesseduffield/lazydocker">LazyDocker - narzędzie do prostszego zarządzania kontenerami&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/mesadhan/multiple-service-deployments-in-a-single-host-hom">Jak postawić wiele aplikacji na jednym serwerze? (nginx+reverse proxy)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Releem/awesome-mysql-performance">Optymalizacja ustawień MySQL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/stavshamir/dockerizing-a-flask-mysql-app-with-docker-compose-kj2">Jak zdokeryzować aplikację pisaną we FLASKu + MySQL?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04">Ustawienia firewalla (UFW) na Ubuntu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/stevenmcgown/kubernetes-for-dummies-5hmh">Wstęp do Kubernetes dla zupełnie zielonych&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/hunterparks/backing-up-files-to-backblaze-b2-with-rclone">Backup z użyciem rclone do chmury Backblaze (B2)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/techworld_with_nana/full-docker-course-free-4hl3">Pełen kurs Dockera (film, ponad 3h)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PLY7SzAmnEqp78tsHh1kK0gOx_f-uwQZAT">Wstęp do programowania w Bashu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.cs.put.poznan.pl/jkonczak/sk1:routing_wstep">Ustawianie routingu statycznego w Linuksie&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mkdev.me/posts/how-networks-work-what-is-a-switch-router-dns-dhcp-nat-vpn-and-a-dozen-of-other-useful-things">Jak działa sieć? (routing, DNS, DHCP, VPN, NAT itp) - artykuł ma 2 części&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mkdev.me/posts/what-and-who-is-devops">Czym i kim jest DevOps?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mikolaj-kaminski.com/nginx-as-reverse-proxy-with-docker/">Konfiguracja reverse proxy na Nginx z użyciem Dockera&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.notion.so/28d3a136f73846afb510cbbaceb0dbf2">Diango, PosgreSQL i nginx na Ubuntu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.oilshell.org/blog/2021/08/xargs.html">Poradnik do XARGS - czyli jak pisać lepsze skrypty shellowe&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/abdadeel/shell-scripting-basics-beginners-guide-1h2b">Podstawy pisania skryptów shellowych&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://wiki.mikr.us/en/blad_ssh_remote_host_identification_has_changed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/blad_ssh_remote_host_identification_has_changed/</guid><description>&lt;h1 id="błąd-ssh-remote-host-identification-has-changed">Błąd SSH (Remote Host Identification has changed!)&lt;/h1>
+&lt;p>Klient SSH chce obronić Cię przed atakami man-in-the-middle (MITM). Realizuje to w ten sposób, że przy każdym połączeniu z wybranym przez Ciebie serwerem, sprawdzany jest &amp;ldquo;odcisk palca&amp;rdquo; (fingerprint) serwera. Jeśli ulegnie on zmianie, to oznacza, że ktoś majstrował przy Twoim serwerze lub nie jest to ten serwer, którego się spodziewasz.&lt;/p>
+&lt;p>Jest jednak zupełnie naturalna sytuacja, w której odcisk palca serwera się zmienia i nie jest to niebezpieczne. Dzieje się tak przy każdej reinstalacji systemu.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus/</guid><description>&lt;h1 id="cytrus">Cytrus&lt;/h1>
+&lt;p>Cytrus jest usługą współdzielonego serwera WWW (jest to Nginx), dzięki któremu bez konieczności instalacji serwera WWW jesteś w stanie hostować strony internetowe.&lt;/p>
+&lt;p>Usługa ta natywnie wspiera strony statyczne oraz te tworzone w języku PHP (np. Wordpress).&lt;/p>
+&lt;blockquote>
+&lt;p>💡 Jeśli chcesz dodać własną DOMENĘ do Cytrusa, musisz wycelować jej wpis “A” w IP:
+&lt;strong>135.181.95.85&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>💡 Jeśli chcesz dodać własną SUBDOMENĘ do Cytrusa, musisz wycelować jej wpis “CNAME” w:
+&lt;strong>backend.strony.me&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Dodatkowe zalety Cytrusa, to:&lt;/strong>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/cytrus_nie_podaje_stron/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/cytrus_nie_podaje_stron/</guid><description>&lt;h1 id="cytrus-nie-podaje-stron">Cytrus nie podaje stron&lt;/h1>
+&lt;p>Istnieje kilka przyczyn tego problemu&lt;/p>
+&lt;ul>
+&lt;li>czy reinstalowałeś swój serwer? Jeśli tak było, aktywuj (w menu &amp;ldquo;pomoc&amp;rdquo;) Cytrusa ponownie&lt;/li>
+&lt;li>czy wszystkie pliki i katalogi w /cytrus/ posiadają ownera i grupę ustawionego na &amp;ldquo;cytrus&amp;rdquo;?&lt;/li>
+&lt;li>sprawdź chmody na katalogi w /cytrus/ - czy mają ustawiony bit wykonywalności (x)?&lt;/li>
+&lt;/ul>
+&lt;p>Jeśli problem nie został rozwiązany, skontaktuj się z kimś z adminów.&lt;/p>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/darmowa_subdomena_dla_vps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/darmowa_subdomena_dla_vps/</guid><description>&lt;h1 id="darmowa-subdomena-dla-vps">Darmowa subdomena dla VPS&lt;/h1>
+&lt;p>Serwery VPS na Mikrusie nie posiadają własnych adresów IPv4, a jedynie udostępnione porty TCP. Nie za fajnie byłoby jednak mieć adres strony w stylu mojastrona:12345 ☹️&lt;/p>
+&lt;p>Masz do dyspozycji jednak adres IPv6, dzięki czemu podpinając swoją domenę w usłudze CloudFlare, możesz przetunelować ruch IPv4 na IPv6 i bez najmniejszych problemów pokazać swoją stronę czytelnikom. Tylko&amp;hellip; na początek musisz mieć/kupić domenę.&lt;/p>
+&lt;p>Tak się składa, że w panelu Mikrusa możesz wyklikać sobie darmową subdomenę w naszej domenie i podpiąć ją do swojego serwera.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/dashboard/</guid><description>&lt;h1 id="dashboard">Dashboard&lt;/h1>
+&lt;p>Dashboard to prosta aplikacja, która umożliwia uruchamianie zdefiniowanych (przez Ciebie) poleceń na Mikrusie przy użyciu jednego kliknięcia.&lt;/p>
+&lt;p>Najprościej jest porównać tę usługę do pilota od TV. Masz tam wiele przycisków, a każdy z nich realizuje pewien cel. Możesz np. przypisać akcję aktualizacji systemu do pierwszego przycisku, restart Apache do drugiego, a np. operację ’git pull’ do trzeciego. Dzięki takiej konfiguracji jesteś w stanie zarządzać serwerem (a przynajmniej najczęstszymi operacjami) bez logowania się na VPSa.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/django_postgresql/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/django_postgresql/</guid><description>&lt;h1 id="django--postgresql">Django + PostgreSQL&lt;/h1>
+&lt;p>Autorem artykułu jest Seweryn Jagusiak&lt;/p>
+&lt;p>W tym artykule opiszę jak postawić aplikację Django (nie wykorzystując w tym celu Dockera), której możemy używać w wersji produkcyjnej na pojedynczym Mikrusie (nawet w wersji 1.0), używając dystrybucji Ubuntu.&lt;/p>
+&lt;h3 id="współdzielony-postgresql">Współdzielony PostgreSQL&lt;/h3>
+&lt;p>Przed zmianami, uzyskajmy dostęp do współdzielonego serwera PostgreSQL.&lt;/p>
+&lt;p>Pod linkiem &lt;a href="https://mikr.us/panel/?a=postgres">https://mikr.us/panel/?a=postgres&lt;/a> możesz poprosić o dane dostępowe do współdzielonej bazy danych.&lt;/p>
+&lt;p>W panelu głównym (&lt;a href="https://mikr.us/panel/">https://mikr.us/panel/&lt;/a>) po kliknięciu w logi bazy powinniśmy otrzymać dane dostępowe w następującym formacie:&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/dystrybucje_linuxa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/dystrybucje_linuxa/</guid><description>&lt;h1 id="dostępne-dystrybuje-linuxa">Dostępne dystrybuje Linuxa&lt;/h1>
+&lt;p>Na Mikrusie dostępne są następujące dystrybucje Linuxa:&lt;/p>
+&lt;ul>
+&lt;li>Ubuntu 24.04 - Noble Numbat&lt;/li>
+&lt;li>Ubuntu 23.04 - Lunar Lobster&lt;/li>
+&lt;li>Ubuntu 22.04 - Jammy Jellyfish&lt;/li>
+&lt;li>Ubuntu 20.04 - Focal Fossa&lt;/li>
+&lt;li>Debian 12.1 (2023.08)&lt;/li>
+&lt;li>Debian 11&lt;/li>
+&lt;li>Debian 10&lt;/li>
+&lt;li>Debian 9&lt;/li>
+&lt;li>ArchLinux (2024.05)&lt;/li>
+&lt;li>ArchLinux (2023.08)&lt;/li>
+&lt;li>Arch 2020 (dla 1.0)&lt;/li>
+&lt;li>Rocky Linux 9.1&lt;/li>
+&lt;li>Rocky Linux 8&lt;/li>
+&lt;li>Fedora 39&lt;/li>
+&lt;li>Alma Linux 8&lt;/li>
+&lt;li>Alma Linux 9.3&lt;/li>
+&lt;li>Alpine 3.16&lt;/li>
+&lt;li>OpenSuse 15.3&lt;/li>
+&lt;li>Centos 8&lt;/li>
+&lt;li>Oracle Linux 8&lt;/li>
+&lt;li>Amazon Linux 2&lt;/li>
+&lt;li>Gentoo 20200310&lt;/li>
+&lt;li>Nightscout (dla cukrzyków) (&lt;a href="https://typefully.com/uwteam/7L4gkrZ">Więcej informacji&lt;/a>)&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://wiki.mikr.us/en/error_521_na_cloudflare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/error_521_na_cloudflare/</guid><description>&lt;h1 id="error-521-na-cloudflare">Error 521 na CloudFlare&lt;/h1>
+&lt;p>Jeśli otrzymujesz ten błąd, to sprawdź następujące przypadki&lt;/p>
+&lt;ul>
+&lt;li>Czy zainstalowałeś u siebie dowolny serwer WWW i słucha on na adresacji IPv6 (nie ipv4!)?&lt;/li>
+&lt;li>sprawdź, czy nie ustawiłeś firewalla blokującego port 80&lt;/li>
+&lt;li>w ustawieniach CloudFlare prawdopodobnie masz ustawiony tryb połączenia na &lt;strong>FULL&lt;/strong> lub &lt;strong>STRICT&lt;/strong>. Zmień na &lt;strong>FLEXIBLE&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/faq_najczesciej_zadawane_pytania/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/faq_najczesciej_zadawane_pytania/</guid><description>&lt;h1 id="faq---najczęściej-zadawane-pytania">FAQ - najczęściej zadawane pytania&lt;/h1>
+&lt;h2 id="sprawy-przed-zakupem">Sprawy przed zakupem&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Czy otrzymam fakturę?&lt;/p>
+&lt;p>Oczywiście! Podczas składania zamówienia podaj dane do niej. Automat prześle Ci fakturę godzinę po opłaceniu zamówienia. Mikrus obsługiwany jest przez legalnie działającą w Polsce firmę, więc płacimy podatki :)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Cena podana na stronie to netto, czy brutto?&lt;/p>
+&lt;p>Jest to kwota ostateczna, jaką płacisz (brutto)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ile będzie kosztował serwer po pierwszym roku?&lt;/p>
+&lt;p>Cena po roku nie zmienia się. Koszt serwera po upływie abonamentu będzie wynosił tyle samo, co w momencie kupna VPSa.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/jak_wysylac_pliki_na_mikrusa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/jak_wysylac_pliki_na_mikrusa/</guid><description>&lt;h1 id="jak-wysyłać-pliki-na-mikrusa">Jak wysyłać pliki na Mikrusa?&lt;/h1>
+&lt;p>Sugerowanym rozwiązaniem przy uploadzie plików na serwer jest użycie SCP.&lt;/p>
+&lt;p>Aby skorzystać z SCP, potrzebujesz znać następujące rzeczy:&lt;/p>
+&lt;ul>
+&lt;li>na którym serwerze masz VPSa? np. &lt;strong>srv08.mikr.us&lt;/strong>&lt;/li>
+&lt;li>jaki jest Twój numer portu SSH? np. &lt;strong>10999&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Jeśli lubisz pracować w terminalu i do tego masz zanstalowane narzędzie &amp;lsquo;scp&amp;rsquo;, to wystarczy wydać następujące polecenie.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>scp -P &lt;span style="color:#ae81ff">10999&lt;/span> /sciezka/na/twoim/dysku/plik.zip root@srv08.mikr.us:/sciezka/na/serwerze/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Jeśli jesteś użytkownikiem &lt;strong>Windowsa&lt;/strong> i lubisz programy okienkowe, to zainstaluj &lt;strong>WinSCP&lt;/strong>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/konfiguracja_mysql_mariadb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/konfiguracja_mysql_mariadb/</guid><description>&lt;h1 id="konfiguracja-mysqlmariadb">Konfiguracja MySQL/MariaDB&lt;/h1>
+&lt;p>Chcąc postawić na Mikrusie własną bazę danych (możesz także &lt;a href="Wspo%CC%81%C5%82dzielone%20bazy%20danych%20139d979d5105492282aef2eb20bfc208.md">skorzystać ze współdzielonej&lt;/a> jeśli chcesz), wykonaj poniższe kroki.&lt;/p>
+&lt;p>Zaktualizuj pakiety w systemie&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Zainstaluj odpowiednie pakiety - my polecamy bazę MariaDB, która jest w 100% kompatybilna z MySQL&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt install mariadb-server mariadb-client
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Po tych operacjach masz działającą bazę, nasłuchującą na porcie 3306 na localhost.&lt;/p>
+&lt;h2 id="zakładanie-bazy-danych">Zakładanie bazy danych&lt;/h2>
+&lt;p>Na początek zaloguj się do bazy poniższym poleceniem (nie potrzebujesz hasła)&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mysql
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Następnie wydaj polecenie do założenia bazy - niech baza nazywa się np. &amp;lsquo;kwiaty&amp;rsquo;&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/logowanie_na_serwery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/logowanie_na_serwery/</guid><description>&lt;h1 id="logowanie-na-serwery">Logowanie na serwery&lt;/h1>
+&lt;p>Aby zalogować się na serwer, należy:&lt;/p>
+&lt;ol>
+&lt;li>zaopatrzyć się w klienta usługi SSH. Może to być np. Program PuTTy na Windowsa lub polecenie &amp;lsquo;ssh&amp;rsquo; na Linuksa, Maca lub Windowsa (PowerShell lub command line).&lt;/li>
+&lt;li>W kliencie należy podać odpowiednią nazwę hosta, czyli np. srv03.mikr.us, &lt;a href="http://srv06.mikr.us">srv06.mikr.us&lt;/a> itd. (nazwa podana jest w mailu powitalnym).&lt;/li>
+&lt;li>&lt;strong>Jako numer portu podajemy pięciocyfrową liczbę&lt;/strong> będącą sumą liczby 10000 i numeru Twojej maszyny. Czyli &lt;strong>jeśli masz maszynę o numerze 123&lt;/strong> to Twój numer portu to &lt;strong>10123&lt;/strong>.&lt;/li>
+&lt;li>Po nawiązaniu połączenia należy podać hasło (podczas wpisywania, nie widać żadnych gwiazdek!) podane w mailu, lub jeśli nie posiadasz tego hasła, należy ustalić nowe na stronie: &lt;a href="https://mikr.us/panel/">https://mikr.us/panel/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Nie próbuj używać portu 22 do łączenia się z serwerem.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/marian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/marian/</guid><description>&lt;h1 id="marian">M.A.R.I.A.N&lt;/h1>
+&lt;p>Marian, to oczywiście skrót od:&lt;/p>
+&lt;p>&lt;strong>M&lt;/strong>anually &lt;strong>A&lt;/strong>ctivated &lt;strong>R&lt;/strong>ecovery of &lt;strong>I&lt;/strong>nfrastructure, &lt;strong>A&lt;/strong>pplications and &lt;strong>N&lt;/strong>etworking&lt;/p>
+&lt;p>To narzędzie do automatycznego diagnozowania problemów z serwerem. Jeśli Twój serwer z jakiegoś powodu nie działa tak, jak powinien lub połączenie się z nim nie jest możliwe, to MARIAN Ci w tym pomoże.&lt;/p>
+&lt;p>Aby uruchomić Mariana, wystarczy wywołać go z panelu użytkownika.&lt;/p>
+&lt;p>Dodatkową zaletą Mariana jest możliwość uruchomienia dowolnej listy poleceń dostarczonych przez użytkownika. Umożliwia to np. wyczyszczenie reguł firewalla w przypadku odcięcia się od serwera, czy postawienie usługi SSH jeśli padła.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/nextcloud/</guid><description>&lt;h1 id="nextcloud">NextCloud&lt;/h1>
+&lt;p>Jedną z usług oferowanych w ramach Mikrusa jest współdzielony serwer NextClouda.&lt;/p>
+&lt;p>Jest to usługa dodatkowo płatna, dostępna w kilku rozmiarach (obecnie 25GB i 50GB).&lt;/p>
+&lt;p>Na współdzielonej instancji otrzymujesz konto użytkownika i możesz z niej korzystać podobnie jak z samodzielnie postawionej wersji.&lt;/p>
+&lt;h2 id="co-to-jest-nextcloud">Co to jest NextCloud?&lt;/h2>
+&lt;p>To usługa przechowywania plików w chmurze. Coś jak Dropbox czy gDrive. Możesz swoje dane synchronizować za pomocą specjalnego klienta, dostępnego na Windowsa, Linuksa, Maca czy na większość smartfonów. Jeśli nie lubisz instalowania dodatkowych aplikacji, masz także możliwość obsługi NextClouda przez interfejs webowy.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/nginx_ograniczenie_dostepu_po_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/nginx_ograniczenie_dostepu_po_ip/</guid><description>&lt;h1 id="ograniczenie-adresów-ip-które-mają-dostęp-serwera-w-nginx">Ograniczenie adresów IP które mają dostęp serwera w NGINX&lt;/h1>
+&lt;p>W NGINX można w łatwy sposób ograniczyć adresy klientów którzy mają dostę do serwera ale Serwery Mikrus działają w oparciu o IPv6 i ruch od klienta przechodzi przez PROXY zmieniając adres IP w zapytaniu. Odtworzenie adresu klienta wymaga dodatkowej konfiguracji wykorzystującej &lt;a href="https://nginx.org/en/docs/http/ngx_http_realip_module.html">ngx_http_realip_module&lt;/a>.&lt;/p>
+&lt;ol>
+&lt;li>Sprawdź czy masz zainstalowany moduł &lt;strong>ngx_http_realip_module&lt;/strong> do NGINX&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nginx -V 2&amp;gt; &amp;gt;&lt;span style="color:#f92672">(&lt;/span>grep http_realip_module&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Dodaj konfigurację modułu &lt;code>ngx_http_realip_module&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>/etc/nginx/conf.d/nginx-realip.conf
+&lt;/code>&lt;/pre>&lt;p>w pliku ustaw listę zaufanych adresów IP dla których chcesz rozwiąc reczywisty adres klienta:&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/nginx_php_mysql/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/nginx_php_mysql/</guid><description>&lt;h1 id="nginx--php--mysql">NginX + PHP + MySQL&lt;/h1>
+&lt;p>Aby postawić stack LEMP, postępuj według poniższej instrukcji&lt;/p>
+&lt;p>Na początek zaktualizuj pakiety w systemie&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Następnie zainstaluj wymagane pakiety&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt install nginx php-fpm mariadb-server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Serwer już stoi. Czas aktywować PHP.&lt;/p>
+&lt;p>Edytuj plik &lt;strong>&lt;code>/etc/nginx/sites-enabled/default&lt;/code>&lt;/strong> i spraw, aby poniższy fragment wyglądał w nim jak na obrazku poniżej 👇&lt;/p>
+&lt;p>&lt;img src="ngnix.png" alt="">&lt;/p>
+&lt;p>Zrestartuj nginx&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>service nginx restart
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To w zasadzie wszystko - teraz wypadałoby tylko &lt;a href="../podpiecie_domeny_przez_cloudflare">podpiąć własną domenę przez Cloudflare&lt;/a>, &lt;a href="https://mikr.us/panel/?a=domain">wyklikać sobie darmową w panelu&lt;/a> lub &lt;a href="../szybka_subdomena">szybko uzyskać ją z VPS-a&lt;/a>.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/nginx_publikacja_prostej_strony/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/nginx_publikacja_prostej_strony/</guid><description>&lt;h1 id="nginx---publikacja-prostej-strony-na-serwerze">NGINX - publikacja prostej strony na serwerze&lt;/h1>
+&lt;blockquote>
+&lt;p>💡 Autorem poradnika jest &lt;strong>&lt;a href="https://ozelot.ovh">Ozelot&lt;/a>&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;p>W tym poradniku pokażę ci jak opublikować na serwerze swoją pierwszą stronę przy użyciu &lt;strong>Nginx&lt;/strong>. Zajmiemy się tutaj statyczną stroną. Jeżeli szukasz informacji o reverse proxy &lt;a href="https://wiki.mikr.us/reverse_proxy_na_nginx/">znajdziesz je tutaj&lt;/a>, natomiast informacje o instalacji i konfiguracji PHP &lt;a href="https://wiki.mikr.us/nginx_php_mysql">znajdziesz tutaj&lt;/a>.&lt;/p>
+&lt;p>Zakładam, że &lt;a href="https://wiki.mikr.us/podpiecie_domeny_przez_cloudflare">posiadasz swoją domenę i podpiąłeś(-aś) ją prawidłowo aby wskazywała na twój serwer&lt;/a> lub &lt;a href="https://wiki.mikr.us/darmowa_subdomena_dla_vps">dodałeś(-aś) darmową subdomenę (nie dotyczy Froga) wskazującą na dowolny port&lt;/a>, bądź &lt;a href="https://wiki.mikr.us/frog/#wsp%C3%B3%C5%82dzielona-subdomena">chcesz użyć współdzielonej subdomeny Froga&lt;/a>.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/o_co_chodzi_z_ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/o_co_chodzi_z_ipv6/</guid><description>&lt;h1 id="o-co-chodzi-z-ipv6">O co chodzi z IPv6?&lt;/h1>
+&lt;p>Serwery Mikrusa działają w trybie “głównie IPv6”. Nie są to serwery “IPv6-only”. Brzmi to dość skomplikowanie, ale już tłumaczę, o co chodzi i jak to działa.&lt;/p>
+&lt;p>&lt;strong>Spis treści&lt;/strong>&lt;/p>
+&lt;h2 id="czym-jest-ipv6">Czym jest IPv6?&lt;/h2>
+&lt;p>Komputery podłączone do internetu posiadają swoje adresy IP, dzięki czemu mogą być widoczne w sieci i mogą porozumiewać się z innymi komputerami. Przykładowo, możesz posiadać adres np. 1.2.3.4. Taka adresacja nazywana jest “Internet Protocol version 4” albo w skrócie IPv4.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/ograniczenia_techniczne_mikrusa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/ograniczenia_techniczne_mikrusa/</guid><description>&lt;h1 id="ograniczenia-techniczne-mikrusa">Ograniczenia techniczne Mikrusa&lt;/h1>
+&lt;p>Istnieją rzeczy, których nie da się zrobić na VPSach Mikrusa.&lt;/p>
+&lt;p>Poniżej lista tych ograniczeń 👇&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mikrusy to kontenery&lt;/strong>, a nie VPSy z pełną wirtualizacją. Nie da się więc zmienić wersji kernela oraz &lt;strong>niemożliwe jest postawienie na nich innych systemów operacyjnych&lt;/strong> takich jak Unix czy Windows&lt;/li>
+&lt;li>Mikrusy działają na adresacji IPv6 i posiadają kilka wystawionych portów na IPv4. Są to jednak losowe numery portów, przez co &lt;strong>niemożliwe jest postawienie własnego serwera pocztowego&lt;/strong> (do poczty przychodzącej) &lt;strong>czy serwera DNS&lt;/strong>, jak i każdej usługi, której numer portu nie może być zmieniony.&lt;/li>
+&lt;li>Ze względu na zabezpieczenia Mikrusa, &lt;strong>niemożliwy jest bezpośredni dostęp do urządzeń blokowych&lt;/strong>. Oznacza to, że nie możesz utworzyć własnego obrazu dysku i &lt;strong>nie możesz przepartycjonować swojego dysku&lt;/strong>.&lt;/li>
+&lt;li>Ze względu na używaną technologię, &lt;strong>niemożliwe jest dodanie (w sposób stabilny) pamięci SWAP w pliku&lt;/strong>.&lt;/li>
+&lt;li>Ze względu na używany współdzielony kernel, &lt;strong>niemożliwe jest podmontowanie zasobów NFS w klasyczny sposób&lt;/strong>. Możesz jednak &lt;a href="https://github.com/sahlberg/fuse-nfs">wykorzystać rozwiązanie bazujące na FUSE&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/petla_przekierowan_na_cloudflare_ssl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/petla_przekierowan_na_cloudflare_ssl/</guid><description>&lt;h1 id="pętla-przekierowań-na-cloudflare-ssl">Pętla przekierowań na CloudFlare (SSL)&lt;/h1>
+&lt;p>Najprawdopodobniej ustawiłeś połączenie typu FLEX na CloudFlare, a po stronie swojego serwera WWW wymuszasz przekierowanie na HTTPS.&lt;/p>
+&lt;p>Możliwe rozwiązania:&lt;/p>
+&lt;ul>
+&lt;li>wymuszaj przekierowanie po stronie CloudFlare (aktywuj &amp;ldquo;Always HTTPS&amp;rdquo;)&lt;/li>
+&lt;li>zmień połączenie na STRICT lub FULL i wtedy korzystaj z SSLa po stronie Mikrusa i CLoudFlare jednocześnie&lt;/li>
+&lt;/ul>
+&lt;p>Jeśli nie masz pojęcia o co chodzi w drugiej opcji, to pierwsza brzmi jakby bardziej była dla Ciebie ;)&lt;/p>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/podpiecie_domeny_przez_cloudflare/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/podpiecie_domeny_przez_cloudflare/</guid><description>&lt;h1 id="podpięcie-domeny-przez-cloudflare">Podpięcie domeny przez CloudFlare&lt;/h1>
+&lt;p>Najprostszym sposobem na podpięcie &lt;strong>własnej domeny&lt;/strong> do serwera jest zupełnie darmowa usługa CloudFlare.&lt;/p>
+&lt;blockquote>
+&lt;p>🔥 &lt;strong>UWAGA&lt;/strong>: nie stosuj tego poradnika dla darmowych subdomen dostępnych w panelu. One działają natychmiast, bez żadnej dodatkowej konfiguracji po stronie CloudFlare&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="co-to-jest-cloudflare">&lt;strong>CO TO JEST CLOUDFLARE?&lt;/strong>&lt;/h3>
+&lt;p>To serwis, który umożliwia cachowanie statycznego contentu na Twojej stronie (pliki graficzne, JS, CSS itp), a w konsekwencji przyspieszenie działania strony, ale oferuje on także usługę tunelującą połączenia IPv4 na adresy IPv6 i to dla mikrusowców jest super ważne :)&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/polaczenie_z_mikrusa_do_lokalnego_serwera/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/polaczenie_z_mikrusa_do_lokalnego_serwera/</guid><description>&lt;h1 id="połączenie-z-mikrusa-do-lokalnego-serwera">Połączenie z Mikrusa do lokalnego serwera&lt;/h1>
+&lt;blockquote>
+&lt;p>💡 Autorem poradnika jest &lt;em>&lt;strong>&lt;a href="http://krzysztofromanowski.pl">Krzysztof Romanowski&lt;/a>&lt;/strong>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>Serwer Mikrusa możesz wykorzystać do połączenia się do swojego lokalnego serwera i nie potrzebujesz w tym celu stawiać usługi typu VPN.&lt;/p>
+&lt;p>Jeśli masz dynamiczne IP, to wiesz, że nie możesz polegać na adresie IP. Wtedy przyda Ci się tzw. tunelowanie SSH.&lt;/p>
+&lt;p>Rozwiązanie jest proste: to Twój serwer czeka na nawiązanie połączenia z konkretnym portem, a Twój domowy komputer (ze zmiennym IP) łączy się do Mikrusa (który ma stałe IP).&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/polecanie_serwera_innym/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/polecanie_serwera_innym/</guid><description>&lt;h1 id="polecanie-serwera-innym">Polecanie serwera innym&lt;/h1>
+&lt;p>Posiadając serwer Mikrusa, możesz zdobyć dodatkowe, darmowe miesiące do swojego abonamentu. Wystarczy, że namówisz kogoś do kupna serwera, dzieląc się z nim swoim linkiem polecającym. Linka takiego znajdziesz w panelu użytkownika zaraz po zalogowaniu się.&lt;/p>
+&lt;p>Jeśli planujesz reklamować serwery Mikrusa w dowolnym miejscu, to upewnij się, że jest to tam dozwolone i mile widziane. Nie spamuj! Wklejanie swojego reflinka np. na losowych grupach na Facebooka przeważnie nie kończy się dobrze.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/program_przestaje_dzialac_gdy_zamykam_ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/program_przestaje_dzialac_gdy_zamykam_ssh/</guid><description>&lt;h1 id="program-przestaje-działać-gdy-zamykam-ssh">Program przestaje działać gdy zamykam ssh!&lt;/h1>
+&lt;p>Twoja aplikacja którą uruchamiasz po przez SSH, na przykład:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flask --app webapp run
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to masz kilka opcji:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#screen">screen&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#systemd">systemd&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#pm2">pm2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="screen">screen&lt;/h3>
+&lt;p>Zainstaluj &lt;code>screen&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt install screen -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>screen
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># tutaj otwiera się wirtualny terminal, wygląda tak samo&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>flask --app webapp run
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># ^a d - czyli wciśnij (i trzymaj) Ctrl i naciśnij kolejno &amp;#34;a&amp;#34; oraz &amp;#34;d&amp;#34; (taraz `możesz puścić Ctrl)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Teraz twój wirtualny terminal został &amp;lsquo;odłączony&amp;rsquo; i możesz się normalnie rozłączyć wpisując exit, wciskając Ctrl+D lub zamykając okno.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/pusher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/pusher/</guid><description>&lt;h1 id="pusher">Pusher&lt;/h1>
+&lt;p>Pusher jest prostym narzędziem pozwalającym Ci wysyłać maile do samego siebie, bez konieczności instalowania serwera mailowego.&lt;/p>
+&lt;p>Wywołuje się go poleceniem &amp;ldquo;pusher&amp;rdquo; np. tak:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>cat /etc/passwd | pusher
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Przykładowe zastosowania:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Przesyłanie wyniku polecenia na maila&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>polecenie | pusher
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Powiadomienie o sukcesie wykonania crona&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>polecenie &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> pusher cron01_uruchomiony
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Powiadomienie o awarii crona&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>polecenie &lt;span style="color:#f92672">||&lt;/span> pusher cron02_awaria
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;p>Powiadomienie o logowaniu na serwer (dorzuć do ~/.bash_profile):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pusher logowanie_roota
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pusher czyta ze standardowego wejścia. Jeśli chcesz zmienić &lt;strong>temat maila&lt;/strong> wysyłanego przez pushera, podaj go jako pierwszy parametr (podkreślenia będą traktowane jak spacje).&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/reverse_proxy_na_nginx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/reverse_proxy_na_nginx/</guid><description>&lt;h1 id="reverse-proxy-na-nginx">Reverse Proxy na nginX&lt;/h1>
+&lt;p>Jeśli chciałbyś na porcie 80 lub 443 swojego Mikrusa wystawić aplikację działającą na innym, niestandardowym porcie, to potrzebujesz wynalazku jakim jest Reverse Proxy.&lt;/p>
+&lt;p>Zakładam, że &lt;a href="../nginx_php_mysql">postawiłeś już u siebie nginX&lt;/a>.&lt;/p>
+&lt;p>Znajdź wirtualny host, który chcesz edytować - domyślnie będzie to:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>/etc/nginx/sites-enabled/default
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Znajdź tam sekcję &lt;code>location /&lt;/code> (jeśli jej nie ma, to dopisz) i spraw, aby wyglądała w następujący sposób:&lt;/p>
+&lt;pre tabindex="0">&lt;code>location / {
+ proxy_set_header Host $host;
+ proxy_set_header X-Forwarded-For $remote_addr;
+	proxy_pass http://123.123.123.123:3000;
+}
+&lt;/code>&lt;/pre>&lt;p>W miejscu &lt;strong>123.123.123.123&lt;/strong> wstaw oczywiście adres IP lub domenę na której stoi Twoja usługa.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/skrypty_noobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/skrypty_noobs/</guid><description>&lt;h1 id="skrypty-noobs">Skrypty NOOBS&lt;/h1>
+&lt;p>NOOBS (New Out Of the Box System) to zestaw skryptów do szybkiego stawiania usług na Mikrusie. Jest to projekt otwartoźródłowy i każdy z użytkowników może rozbudować kolekcje o własne skrypty.&lt;/p>
+&lt;p>&lt;a href="https://github.com/unkn0w/noobs/">https://github.com/unkn0w/noobs/&lt;/a>&lt;/p>
+&lt;p>Dzięki przygotowanym skryptom łatwo zainstalujesz Apache, OpenVZ, Jenkinsa, Webmina, Zerotier i kilkadziesiąt innych usług.&lt;/p>
+&lt;p>Na nowo zainstalowanym serwerze, skrypty NOOBS wrzucane są automatycznie do /opt/noobs i dla wygody użytkownika linkowane do /root/noobs&lt;/p>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/storage/</guid><description>&lt;h1 id="storage">Storage&lt;/h1>
+&lt;p>Pod nazwą “Storage” kryje się dysk sieciowy, na którym oferujemy dodatkową przestrzeń dyskową dla użytkowników Mikrusa.&lt;/p>
+&lt;p>Przestrzeń ‘Storage’ jest dodatkowo płatna i dostępna w czterech pakietach:&lt;/p>
+&lt;ul>
+&lt;li>125GB&lt;/li>
+&lt;li>250GB&lt;/li>
+&lt;li>500GB&lt;/li>
+&lt;li>1000GB&lt;/li>
+&lt;/ul>
+&lt;p>Twoja przestrzeń dyskowa jest zamontowana pod katalog &lt;strong>/storage/&lt;/strong>. Każdorazowe podpięcie lub odpięcie (np. gdy skończy Ci się abonament na dysk) wymaga restartu serwera.&lt;/p>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/strych_backupy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/strych_backupy/</guid><description>&lt;h1 id="strych-backupy">Strych (backupy)&lt;/h1>
+&lt;p>Strych to współdzielony &lt;strong>serwer backupowy&lt;/strong>, na którym &lt;strong>każdy z użytkowników posiada 200MB&lt;/strong> przestrzeni do przechowywania własnych plików. Aby uzyskać do niego dostęp, wystarczy o niego poprosić przez panel, klikając odpowiednią opcję w sekcji &amp;ldquo;&lt;strong>&lt;a href="https://mikr.us/panel/?a=backup">Backup&lt;/a>&lt;/strong>&amp;rdquo;.&lt;/p>
+&lt;p>Warto efektywnie wykorzystać tę przestrzeń, wykonując tam nie pełne backupy, a jedynie przyrostowe.&lt;/p>
+&lt;h3 id="jak-to-zrobić">&lt;strong>JAK TO ZROBIĆ?&lt;/strong>&lt;/h3>
+&lt;p>Poniższa instrukcja przeznaczona jest dla serwerów z systemem zarządzania pakietami apt, np. Ubuntu.&lt;/p>
+&lt;ol>
+&lt;li>Aktywuj w panelu dostęp do serwera backupowego (menu &amp;ldquo;Backup&amp;rdquo;)&lt;/li>
+&lt;li>Ściągnij aplikację do backupu:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>wget https://mikr.us/tools/rsnappush -O /usr/bin/rsnappush
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Zainstaluj aplikację, z której korzysta pod spodem rsnappush:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>apt install acl rsync
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Spraw, aby aplikacja do backupu była wykonywalna:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>chmod +x /usr/bin/rsnappush
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Utwórz na swoim mikrusie plik ~/.ssh/config o następującej zawartości (&lt;strong>podmień usera na własnego&lt;/strong>)&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>Host strych.mikr.us
+ user a100
+ IdentityFile /backup_key
+&lt;/code>&lt;/pre>&lt;ol start="6">
+&lt;li>Backupuj co tylko zechcesz:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rsnappush /etc strych.mikr.us:~/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="jak-działa-backup-przyrostowy">&lt;strong>JAK DZIAŁA BACKUP PRZYROSTOWY?&lt;/strong>&lt;/h3>
+&lt;p>Jeśli np. katalog /etc/, który backupujesz ma 5MB, to pierwszy jego backup zajmie równe 5MB. Gdy jednak zmienisz w tym katalogu jeden plik, to kolejny backup zajmie tylko tyle miejsca, ile zajmuje edytowany plik (czyli np. 1kb).&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/szybka_subdomena/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/szybka_subdomena/</guid><description>&lt;h1 id="szybka-subdomena">Szybka subdomena&lt;/h1>
+&lt;p>Jeśli chcesz podpiąć tymczasową, darmową subdomenę do swojej aplikacji postawionej na Mikrusie, możesz zrobić to za pomocą naszego narzędzia o nazwie “domena”.&lt;/p>
+&lt;p>Oto wideo instrukcja:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://player.vimeo.com/video/901911932" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
+&lt;/div>
+&lt;h2 id="podpięcie-losowej-subdomeny-do-wybranego-portu">Podpięcie losowej subdomeny do wybranego portu&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>domena &lt;span style="color:#ae81ff">555&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="podpięcie-wybranej-subdomeny-do-portu">Podpięcie wybranej subdomeny do portu&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>domena testuje123.byst.re &lt;span style="color:#ae81ff">1234&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ważne-uwagi">Ważne uwagi&lt;/h2>
+&lt;ul>
+&lt;li>Możesz użyć absolutnie dowolnego portu TCP. Nie musi to być jeden z dostępnych dla Ciebie portów&lt;/li>
+&lt;li>Twoja aplikacja musi słuchać na adresacji IPv6&lt;/li>
+&lt;li>Jeśli nasz serwer nie będzie mógł połączyć się z Twoją aplikacją lub gdy aplikacja będzie zwracać błąd 50x, to subdomena nie zostanie utworzona&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/too_many_authentication_failures_preauth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/too_many_authentication_failures_preauth/</guid><description>&lt;h1 id="too-many-authentication-failures-preauth">Too many authentication failures [preauth]&lt;/h1>
+&lt;p>Błąd podany w tytule może wystąpić podczas łączenia się do serwera i to niezależnie od tego, czy logujesz się hasłem, czy kluczem SSH.&lt;/p>
+&lt;p>Winę ponoszą jednak klucze - dlaczego tak się dzieje?&lt;/p>
+&lt;p>Najczęstszym powodem takiej sytuacji jest &lt;strong>zbyt duża liczba kluczy załadowanych do agenta SSH&lt;/strong> (ssh-agent). Jest szansa, że masz tam wpisanych np. 7-8 kluczy. Domyślna konfiguracja SSH zezwala jedynie na 5-6 (zależnie od systemu) następujących po sobie błędnych logowań, a następnie odrzuca kolejne próby połączenia.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/udostepnione_porty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/udostepnione_porty/</guid><description>&lt;h1 id="udostępnione-porty">Udostępnione porty&lt;/h1>
+&lt;p>Wraz ze swoim serwerem VPS otrzymujesz trzy domyślne porty TCP/UDP:&lt;/p>
+&lt;ul>
+&lt;li>10000 + ID&lt;/li>
+&lt;li>20000 + ID&lt;/li>
+&lt;li>30000 + ID&lt;/li>
+&lt;/ul>
+&lt;p>Gdzie ID to numer Twojej maszyny.&lt;/p>
+&lt;p>Pierwszy z portów używany jest do logowania przez SSH, więc raczej nie wykorzystasz go do hostowania innych usług. Dwa pozostałe porty to porty ogólnego przeznaczenia.&lt;/p>
+&lt;p>Jeśli liczba portów okaże się dla Ciebie niewystarczająca, to w panelu użytkownika możesz wyklikać sobie (za darmo) maksymalnie 7 dodatkowych portów.&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/uzywaj_kluczy_ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/uzywaj_kluczy_ssh/</guid><description>&lt;h1 id="używaj-kluczy-ssh">Używaj kluczy SSH!&lt;/h1>
+&lt;p>Uzyskując dostęp do Mikrusa po raz pierwszy, w mailu powitalnym dostajesz hasło dla użytkownika root. Możesz wykorzystać je do pierwszego zalogowania się, lub możesz wygenerować nowe hasło za pośrednictwem panelu sterowania.&lt;/p>
+&lt;p>Zachęcam jednak do tego, abyś przestał używać haseł, a zaczął pracę z kluczami SSH. Znacząco podniesie to bezpieczeństwo Twojego serwera.&lt;/p>
+&lt;p>Aby zacząć używać kluczy, wydaj następujące polecenie &lt;strong>na Twoim komputerze&lt;/strong> (nie na Mikrusie!):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ssh-keygen -t rsa -b &lt;span style="color:#ae81ff">4096&lt;/span> -C mikrus -f ~/.ssh/mikrus
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Następnie skopiuj do schowka &lt;strong>zawartość&lt;/strong> pliku:&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/wireguard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/wireguard/</guid><description>&lt;h1 id="wireguard">Wireguard&lt;/h1>
+&lt;p>Dla posiadaczy Mikrusa 2.0 dostępna jest bezpłatna, współdzielona instancja Wireguarda.&lt;/p>
+&lt;p>Aby zdobyć do niej dostęp, wystarczy jedynie aktywować go w panelu użytkownika.&lt;/p>
+&lt;p>Serwer wyjściowy wspólnego Wireguarda fizycznie znajduje się w Finlandii i stoi na łączu 1Gbps.&lt;/p>
+&lt;p>Korzystanie z tej instancji do ściągania nielegalnych plików (sieci P2P) czy oglądania wideo strumieniowego (Netflix itp) jest zabronione.&lt;/p>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item><item><title/><link>https://wiki.mikr.us/en/wspoldzielone_bazy_danych/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.mikr.us/en/wspoldzielone_bazy_danych/</guid><description>&lt;h1 id="współdzielone-bazy-danych">Współdzielone bazy danych&lt;/h1>
+&lt;p>Pamięć RAM to jeden z cenniejszych zasobów na Twoim serwerze. Istnieje jednak szansa, że będziesz potrzebować do projektu bazy MySQL, czy PostgreSQL. Nie musisz jednak samodzielnie jej stawiać.&lt;/p>
+&lt;p>Posiadamy współdzielone serwery baz danych, na których możesz założyć jedną bazę i używać jej &amp;ldquo;w granicach przyzwoitości&amp;rdquo;.&lt;/p>
+&lt;p>Umawiamy się na &lt;strong>limit 100MB danych na użytkownika&lt;/strong>, ale admini są bardzo pobłażliwi i nie egzekwują zbyt mocno tego limitu ;)&lt;/p>
+&lt;p>&lt;a href="https://wiki.mikr.us/">Powrót do strony głównej&lt;/a>&lt;/p></description></item></channel></rss>
