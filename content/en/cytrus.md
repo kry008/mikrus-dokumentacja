@@ -1,32 +1,32 @@
 # Cytrus
 
-Cytrus jest usługą współdzielonego serwera WWW (jest to Nginx), dzięki któremu bez konieczności instalacji serwera WWW jesteś w stanie hostować strony internetowe.
+Cytrus is a shared web server service (this is Nginx) that allows you to host websites without having to install a web server.
 
-Usługa ta natywnie wspiera strony statyczne oraz te tworzone w języku PHP (np. Wordpress).
+This service natively supports static pages and those created in PHP (e.g. Wordpress).
 
-> 💡 Jeśli chcesz dodać własną DOMENĘ do Cytrusa, musisz wycelować jej wpis “A” w IP:
+> 💡 If you want to add your own DOMAIN to Cytrus, you need to point its “A” entry to IP:
 > **135.181.95.85**
 
-> 💡 Jeśli chcesz dodać własną SUBDOMENĘ do Cytrusa, musisz wycelować jej wpis “CNAME” w:
+> 💡 If you want to add your own SUB-DOMAIN to Cytrus, you need to point its “CNAME” entry to:
 > **backend.strony.me**
 
-**Dodatkowe zalety Cytrusa, to:**
+**Additional benefits of Cytrus are::**
 
-- możliwość przekierowania domeny na dowolny adres IP oraz port (usługa WWW nie musi słuchać na porcie 80)
-- możliwość dostępu do serwera za pomocą współdzielonego serwera FTP
-- obsługa dowolnej liczby domen
+- ability to redirect a domain to any IP address and port (the WWW service does not have to listen on port 80)
+- ability to access the server using a shared FTP server
+- support for any number of domains
 
-**Ograniczenia:**
-- Cytrus jest współdzielony więc aby zapewnić komfortowe działanie wszystkim użytkownikom, utrzymuj rozmiar wszystkich plików  poniżej 3 GB
-- Ze względu na to że cytrus jest na osobnej, mocniejszej maszynie podążanie za symlinkami na VPS-a nie jest możliwe
+**Limitations:**
+- Cytrus is shared, so to ensure a comfortable experience for all users, keep all files under 3 GB
+- Since cytrus is on a separate, more powerful machine, following symlinks to a VPS is not possible
 
 **Ciekawostki**
 
-- jeśli zamiast katalogu docelowego podasz adres domenowy lub adres IP serwera wraz z numerem portu, to Cytrus przekieruje na niego ruch (podaj np: http://1.2.3.4:3000)
-- jako ‘katalog docelowy’ możesz podać adres URL strony w Notion. Zyskasz wtedy możliwość hostowania stron z Notion we własnej domenie/subdomenie.
+- if instead of the target directory you provide a domain address or server IP address along with the port number, Cytrus will redirect traffic to it (for example, provide: http://1.2.3.4:3000)
+- as the 'target directory' you can provide the URL of the page in Notion. You will then be able to host pages from Notion on your own domain/subdomain.
 
-Cytrus NIE jest konieczny, aby hostować własne strony na Mikrusie.
+Cytrus is NOT required to host your own sites on Mikrus.
 
-Jest on jedynie opcjonalnym ułatwieniem.
+It is only an optional convenience.
 
-[Powrót do strony głównej](/)
+[Return to main page](/)
