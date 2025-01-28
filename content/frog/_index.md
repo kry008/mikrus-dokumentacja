@@ -8,12 +8,14 @@ Serwery ‘Frog’ to VPS-y z darmowej oferty Mikrusa (<https://mikr.us/>).
 
 Możesz posiadać **JEDEN** taki serwer.
 
+> Zobacz też na [częste pytania i odpowiedzi](faq).
+
 Do aktywacji serwera konieczne jest wykonanie “opłaty aktywacyjnej”. Nie jest to opłata abonamentowa (bo nie posiadasz żadnego abonamentu), a jedynie przelew weryfikacyjny.
 
 Przelew taki wynosi **5zł**, ale wpłatę możesz dobrowolnie powiększyć, jeśli chcesz się dorzucić do utrzymania serwera.
 
 
-> 🆘 Reinstalacja lub odzyskanie hasła? Sprawdź nasz portal: <https://ssp.mikr.us/> oraz <https://ssp.mikr.us/>
+> 🆘 Reinstalacja lub odzyskanie hasła? Sprawdź nasz portal: <https://ssp.mikr.us/>
 
 > 👉🏻 Loginem do portalu jest 3 (lub 4) cyfrowy  ID, czyli jak Twój Frog ma w nazwie f1**853**, to Twoim ID jest 853.
 
